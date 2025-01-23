@@ -1,0 +1,1 @@
+This repository demonstrates a common error in bash scripting: improper handling of file existence. The `bug.sh` script attempts to process a file, but fails without error handling if the file is not found. The solution, in `bugSolution.sh`, demonstrates how to robustly check for file existence using '-f' before proceeding. This prevents the script from crashing unexpectedly.
